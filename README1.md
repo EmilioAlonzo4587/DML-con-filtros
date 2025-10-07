@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DML-con-filtros
 =======
 SELECT UPPER(first_name) AS first_name,
@@ -117,4 +116,3 @@ FROM customer
 WHERE last_name LIKE 'S%';
 Qué hace: Filtra los clientes cuyo apellido (last_name) comienza con la letra S usando LIKE.
 Qué devuelve: El ID, nombre, apellido y país de todos los clientes que cumplen esta condición
->>>>>>> c846392 (subiendo sql y readme)
